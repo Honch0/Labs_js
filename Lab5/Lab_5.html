@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<html>
+    <head>
+		<meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+		<style>
+			*, *::before, *::after {
+			  margin: 0;
+			  padding: 0;
+			  box-sizing: border-box;
+			}
+			html {
+			  color-scheme: dark;
+			  font-size: 18px;
+			}
+			body {
+			  min-height: 100vh;
+			  padding: 50px;
+			  display: flex;
+			  align-items: center;
+			  justify-content: center;
+			  background-color: #18191C;
+			  color: #FFFFFF;
+			  font-family: "Roboto", sans-serif;
+			}
+
+			form {
+			  width: 100%;
+			  min-width: 550px;
+			  max-width: 800px;
+			}
+			.input {
+			  flex-shrink: 1;
+			  padding: 10px 15px;
+			  border: 1px solid #FFFFFF;
+			  border-radius: 6px;
+			  background-color: #EEEEEE;
+			  color: #000000;
+			  font-family: inherit;
+			  font-size: inherit;
+			  font-weight: 300;
+			  display: block;
+			  margin: auto;
+			  margin-top: 10px;
+			}
+			.buttons {
+			  display: flex;
+			  justify-content: center;
+			}
+			.button {
+			  min-width: 210px;
+			  border: 2px solid transparent;
+			  border-radius: 6px;
+			  padding: 8px 15px;
+			  color: #000000;
+			  font-size: 1.125rem;
+			  font-weight: 300;
+			  margin: auto;
+			  margin-top: 10px;
+			}
+			.button-blue {
+			  background-color: #9B59B6;
+			}
+			.agree-pls {
+			  display: flex;
+			  justify-content: center;
+			  margin-top: 10px;
+			}
+		</style>
+    </head>
+    <body>
+		<form method="get" action="../result">
+			<img src="C:/Users/Honcho/Desktop/Labs_JS/logo.png" style="display:block; margin:0 auto;">
+			<label class="input-label">
+				<input class="input" type="text" placeholder="Full Name" size="40" name="one-line"/>
+			</label>
+			<label class="input-label">
+				<input class="input" type="text" placeholder="E-mail" size="40" name="email"/>
+			</label>
+			<label class="input-label">
+				<input class="input" type="password" placeholder="Password" size="40" name="one-line-password"/>
+			</label>
+			<label class="input-label">
+				<input class="input" type="password" placeholder="Confirm Password" size="40" name="one-line-password"/>
+			</label>
+			<div class="buttons">
+				<input type="reset" value="Create Account" class="button button-blue">
+			</div>
+			<span class="agree-pls"><i>By clicking "Create Account" you agree to our <b>terma</b> and <b>privacy policiy</b></i></span>
+		</form>
+    </body>
+</html>
