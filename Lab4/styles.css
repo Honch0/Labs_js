@@ -1,0 +1,28 @@
+<styles>
+	html, body {
+		overflow: hidden;
+	}
+	.body {
+		display: block;
+	}
+	.main-information {
+		display: flex;
+		align-items: space-between;
+		font: 20px/1.5 sans-serif;
+	}
+	.thesis {
+		font-family: "open-sans";
+		margin-right: auto;
+		font-weight: bold;
+	}
+	.information {
+		font-family: "open-sans";
+		margin-left: auto;
+		text-align: right;
+	}
+	.header {
+		font: 30px/1.5 sans-serif;
+		font-weight: bold;
+		margin-right: auto;
+	}
+</styles>

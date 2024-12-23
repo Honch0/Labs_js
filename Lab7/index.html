@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<html>
+    <head>
+		<meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+		
+		<link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+		<form action="http://localhost:3000/submit" method = "POST">
+			<img src="logo.png" style="display:block; margin:0 auto;">
+			<label class="input-label">
+				<input class="input" type="text" placeholder="Full Name" size="40" name="one-line"/>
+			</label>
+			<label class="input-label">
+				<input class="input" type="text" placeholder="E-mail" size="40" name="email"/>
+			</label>
+			<label class="input-label">
+				<input class="input" type="password" placeholder="Password" size="40" name="one-line-password"/>
+			</label>
+			<label class="input-label">
+				<input class="input" type="password" placeholder="Confirm Password" size="40" name="one-line-password"/>
+			</label>
+			<div class="buttons">
+				<input type="submit" value="Create Account" class="button button-blue">
+			</div>
+			<span class="agree-pls"><i>By clicking "Create Account" you agree to our <b>terma</b> and <b>privacy policiy</b></i></span>
+		</form>
+    </body>
+</html>

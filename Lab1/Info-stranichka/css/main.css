@@ -1,0 +1,224 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto);
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+#toTop {
+    width: 150px;
+    background: rgba(255, 255, 255, 0.219);
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    cursor: pointer;
+    display: none;
+    color: #333;
+    font-size: 10px;
+    z-index: 3;
+}
+
+h1,
+h2 {
+    margin: 0;
+    text-shadow: 0 2px rgba(0, 0, 0, .5);
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+p {
+    display: block;
+    margin-top: 0px;
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    display: table;
+    z-index: -1;
+}
+
+.header:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(33, 33, 33, 0.75);
+}
+
+.header_bg-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url("../images/background.png") center center no-repeat;
+    background-size: cover;
+}
+
+.header__content {
+    position: relative;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    z-index: 2;
+}
+
+.content {
+    margin-top: 100vh;
+    height: 100%;
+    padding: 10px;
+    background: #212121;
+}
+
+.history {
+    margin-top: 100vh;
+    height: 100%;
+    padding: 10px;
+    background: #212121;
+
+}
+
+.container {
+    margin: 0 auto;
+    width: 700px;
+}
+
+.nav {
+    margin: 20px auto;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    background: rgba(33, 33, 33, 0.9);
+}
+
+.nav__item {
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #bdbdbd;
+}
+
+.nav__item_active {
+    color: #fff;
+}
+
+.main {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    background-color: #2e2e2e;
+}
+
+.main a {
+    margin-right: 10px;
+}
+
+.main a img {
+    height: 160px;
+    width: 20%;
+}
+
+footer {
+    margin: -10;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 300;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    z-index: 2;
+    bottom: 0;
+    background-color: rgba(68, 68, 68, 0.658);
+}
+
+.title {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-align: center;
+
+}
+
+.subtitle {
+    margin-bottom: 40px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.text_block {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.celestia img {
+    width: 90%;
+    height: 40%;
+    display: inline-flex;
+    padding: 20px;
+}
+
+.historyBlock {
+    font-size: 17px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.imageComment {
+    display: block;
+    text-align: center;
+    font-size: 94%;
+    margin: 30px 30px 30px 30px;
+    padding: 5px;
+    background-color: #2e2e2e;
+}
+
+.gallery img {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.imageComment img {
+    margin-bottom: 10px;
+}
+
+.emptyBlock {
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 10px;
+    width: 600px;
+    height: 400px;
+    background-color: #5050506b;
+}
+
+.bigger {
+    transform: scale(1.5);
+}
