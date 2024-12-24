@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="styles/styles.css">
+		<title>Cheffest</title>
+	</head>
+
+	<body class="body">
+		<header class="header body__header">
+			<!-- Меню шапки Desktop -->
+			<nav class="menu header__menu">
+				<!-- Левая часть -->
+				<div class="menu__menu-left">
+					<a href="#" class="menu__link-text">Welcome</a>
+					<a href="#" class="menu__link-text">Our menu</a>
+					<a href="#" class="menu__link-text">Franchise</a>
+					<a href="#" class="menu__link-text">Contact</a>
+				</div>
+				
+				<!-- Средняя часть -->
+				<div class="menu__menu-center">
+					<a href="index.html" class="menu__logo">
+						<img src="images/logo.png" alt="logo">
+					</a>
+				</div>
+
+				<!-- Правая часть -->
+				<div class="menu__menu-right">
+					<a href="#" class="menu__link-icon">
+						<img src="images/cart-icon.png" alt="cart">
+					</a>
+
+					<a href="#" class="menu__link-icon">
+						<img src="images/search-icon.png" alt="search">
+					</a>
+					
+					<a href="#" class="link-button">
+						Become a Member
+					</a>
+				</div>
+			</nav>
+
+			<!-- Меню шапки Mobile -->
+			<nav class="menu-mobile header__menu-mobile">
+				<img class="menu-mobile__burger-button" src="images/burger-icon.png" alt="toggle menu">
+				
+				<a href="index.html" class="menu-mobile__logo">
+					<img src="images/logo-mobile.png" alt="cheffest">
+				</a>
+
+				<a href="#" class="menu-mobile__link-icon">
+					<img src="images/cart-icon.png" alt="cart">
+				</a>
+			</nav>
+		</header>
+
+		<!-- Контент -->
+		<main class="main">
+
+			<!-- Фон секции -->
+			<div class="main__hero-wrapper">
+				<!-- Вступительная секция -->
+				<section class="hero main__hero">
+					<h1 class="hero__title title title_size_huge title_weight_extra">
+						Welcome! <br>
+						We Made Delicious <br>
+						Food for You
+					</h1>
+					
+					<div class="hero__text">
+						Lorem ipsum is simply dummy text of the printing and <br>
+						typesetting industry.
+					</div>
+					
+					<a href="#" class="link-button">
+						Order Online
+					</a>
+				</section>
+			</div>
+
+			<!-- Секция с информацией о ресторане -->
+			<section class="about main__about">
+				<h2 class="about__title title">
+					Why we are Best Food Maker
+				</h2>
+
+				<p class="about__subtitle">
+					Lorem ipsum is simply dummy text of the printing and typesetting industry.
+					Lorem scrambled it to make a type specimen book.
+				</p>
+			
+				<!-- Две колонки -->
+				<div class="about__columns">
+					<!-- Колонка с текстом -->
+					<div class="about__column-info">
+						<p class="about__text">
+							It is a long established fact that a reader will be distracted layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The normal distribution of letters, as opposed to using 'Content  Many desktop publishing packages and web page editors search for 'lorem ipsum' will uncover many web sites still in  humour and the like. 
+							<a class="about__column-link" href="#">Read More</a>
+						</p>
+					</div>
+
+					<!-- Колонка с видео -->
+					<div class="about__column-video">
+						<button class="about__play-button">
+							<img src="images/play-icon.png" alt="play video">
+						</button>
+					</div>
+				</div>
+			</section>
+
+			<!-- Секция карточки еды -->
+			<section class="food main__food">
+				<h2 class="food__title title title_mobile-align_center">
+					Our Best & Delicious Menu
+				</h2>
+
+				<div class="food__categories">
+					<button class="food__category food__category_active">All</button>
+					<button class="food__category">Bread</button>
+					<button class="food__category">Chiffon & Rolls</button>
+					<button class="food__category">Donut</button>
+					<button class="food__category">Pastry & Danish</button>
+					<button class="food__category">Cakes</button>
+					<button class="food__category">Cookies</button>
+				</div>
+
+				<div class="food__cards">
+					<div class="food__card">
+						<img class="food__image" src="images/food1.png">
+						<h3 class="food__title">Naan Burger</h3>
+						<p class="food__text">
+							Lorem ipsum is simply dummy text of the printing and typesetting industry.
+						</p>
+						<div class="food__price">$1.85</div>
+						<div class="food__cart-button">
+							<img src="images/food-cart.png" alt="Add to cart">
+						</div>
+					</div>
+
+					<div class="food__card">
+						<img class="food__image" src="images/food2.png">
+						<h3 class="food__title">Butter Chicken Taco</h3>
+						<p class="food__text">
+							Lorem ipsum is simply dummy text of the printing and typesetting industry.
+						</p>
+						<div class="food__price">$1.85</div>
+						<div class="food__cart-button">
+							<img src="images/food-cart.png" alt="Add to cart">
+						</div>
+					</div>
+
+					<div class="food__card">
+						<img class="food__image" src="images/food3.png">
+						<h3 class="food__title">Chicken Burger</h3>
+						<p class="food__text">
+							Lorem ipsum is simply dummy text of the printing and typesetting industry.
+						</p>
+						<div class="food__price">$1.85</div>
+						<div class="food__cart-button">
+							<img src="images/food-cart.png" alt="Add to cart">
+						</div>
+					</div>
+
+					<div class="food__card">
+						<img class="food__image" src="images/food4.png">
+						<h3 class="food__title">Cheese Chicken Naan</h3>
+						<p class="food__text">
+							Lorem ipsum is simply dummy text of the printing and typesetting industry.
+						</p>
+						<div class="food__price">$1.85</div>
+						<div class="food__cart-button">
+							<img src="images/food-cart.png" alt="Add to cart">
+						</div>
+					</div>
+
+					<div class="food__card">
+						<img class="food__image" src="images/food5.png">
+						<h3 class="food__title">3 Layer Burger</h3>
+						<p class="food__text">
+							Lorem ipsum is simply dummy text of the printing and typesetting industry.
+						</p>
+						<div class="food__price">$1.85</div>
+						<div class="food__cart-button">
+							<img src="images/food-cart.png" alt="Add to cart">
+						</div>
+					</div>
+
+					<div class="food__card">
+						<img class="food__image" src="images/food6.png">
+						<h3 class="food__title">Sandwich</h3>
+						<p class="food__text">
+							Lorem ipsum is simply dummy text of the printing and typesetting industry.
+						</p>
+						<div class="food__price">$1.85</div>
+						<div class="food__cart-button">
+							<img src="images/food-cart.png" alt="Add to cart">
+						</div>
+					</div>
+				</div>
+
+				<div class="food__button-container">
+					<a class="food__button link-button">See All</a>
+				</div>
+			</section>
+			
+			<section class="stats main__stats">
+				<h2 class="stats__title title">We believe in making quality food</h2>
+			
+				<div class="stats__numbers">
+					<div class="stats__number">
+						<div class="stats__number-title title title_size_medium ">
+							2M+
+						</div>
+
+						<div class="stats__text">
+							Happy Customers
+						</div>
+					</div>
+
+					<div class="stats__number">
+						<div class="stats__number-title title title_size_medium">
+							98%
+						</div>
+
+						<div class="stats__text">
+							Customer Satisfaction
+						</div>
+					</div>
+
+					<div class="stats__number">
+						<div class="stats__number-title title title_size_medium ">
+							20+
+						</div>
+
+						<div class="stats__text">
+							Our Branches
+						</div>
+					</div>
+
+					<div class="stats__number">
+						<div class="stats__number-title title title_size_medium">
+							100+
+						</div>
+
+						<div class="stats__text">
+							Total Employees
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Секция франшиза -->
+			<section class="franchise main__franchise">
+				<h2 class="franchise__title title">
+					Start The Adventure Today And Become A Franchisee
+				</h2>
+
+				<div class="franchise__text">
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+				</div>
+
+				<div class="franchise__button-container">
+					<a class="franchise__button link-button">Become a Franchise</a>
+				</div>
+			</section>
+
+			<!-- Секция отзывов -->
+			<section class="reviews main__reviews">
+				<h2 class="reviews__title title">
+					What Our Clients Are Saying
+				</h2>
+
+				<div class="reviews__cards">
+					<div class="reviews__review">
+						<div class="reviews__review-header">
+							<img class="reviews__profile" src="images/review1.png">
+
+							<div class="reviews__info">
+								<div class="reviews__name">Michal Gun</div>
+								<div class="reviews__job">Head of sales at Tesla</div>
+								<div class="reviews__stars">
+									<img src="images/star.png">
+									<img src="images/star.png">
+									<img src="images/star.png">
+									<img src="images/star.png">
+									<img src="images/star.png">
+								</div>
+							</div>
+						</div>
+
+						<img class="reviews__divider" src="images/divider.png">
+						
+						<div class="reviews__text">
+							There are many variatioof passages of Lorem Ipsum ava but the majority If you are going to use a passage of Lorem Ipsum, you need tasure there isn't anything embarrassinhidden in believable.
+						</div>
+					</div>
+
+					<div class="reviews__review">
+						<div class="reviews__review-header">
+							<img class="reviews__profile" src="images/review2.png">
+
+							<div class="reviews__info">
+								<div class="reviews__name">Aleena White</div>
+								<div class="reviews__job">Accountant of Ozone</div>
+								<div class="reviews__stars">
+									<img src="images/star.png">
+									<img src="images/star.png">
+									<img src="images/star.png">
+									<img src="images/star.png">
+									<img src="images/star.png">
+								</div>
+							</div>
+						</div>
+
+						<img class="reviews__divider" src="images/divider.png">
+						
+						<div class="reviews__text">
+							There are many variatioof passages of Lorem Ipsum ava but the majority If you are going to use a passage of Lorem Ipsum, you need tasure there isn't anything embarrassinhidden in believable.
+						</div>
+					</div>
+
+					<div class="reviews__review">
+						<div class="reviews__review-header">
+							<img class="reviews__profile" src="images/review3.png">
+
+							<div class="reviews__info">
+								<div class="reviews__name">Cries Lee</div>
+								<div class="reviews__job">CEO of montee</div>
+								<div class="reviews__stars">
+									<img src="images/star.png">
+									<img src="images/star.png">
+									<img src="images/star.png">
+									<img src="images/star.png">
+									<img src="images/star.png">
+								</div>
+							</div>
+						</div>
+
+						<img class="reviews__divider" src="images/divider.png">
+						
+						<div class="reviews__text">
+							There are many variatioof passages of Lorem Ipsum ava but the majority If you are going to use a passage of Lorem Ipsum, you need tasure there isn't anything embarrassinhidden in believable.
+						</div>
+					</div>
+
+
+					<div class="reviews__review">
+						<div class="reviews__review-header">
+							<img class="reviews__profile" src="images/review1.png">
+
+							<div class="reviews__info">
+								<div class="reviews__name">Michal Gun</div>
+								<div class="reviews__job">Head of sales at Tesla</div>
+								<div class="reviews__stars">
+									<img src="images/star.png">
+									<img src="images/star.png">
+									<img src="images/star.png">
+									<img src="images/star.png">
+									<img src="images/star.png">
+								</div>
+							</div>
+						</div>
+
+						<img class="reviews__divider" src="images/divider.png">
+						
+						<div class="reviews__text">
+							There are many variatioof passages of Lorem Ipsum ava but the majority If you are going to use a passage of Lorem Ipsum, you need tasure there isn't anything embarrassinhidden in believable.
+						</div>
+					</div>
+
+					<div class="reviews__review">
+						<div class="reviews__review-header">
+							<img class="reviews__profile" src="images/review2.png">
+
+							<div class="reviews__info">
+								<div class="reviews__name">Aleena White</div>
+								<div class="reviews__job">Accountant of Ozone</div>
+								<div class="reviews__stars">
+									<img src="images/star.png">
+									<img src="images/star.png">
+									<img src="images/star.png">
+									<img src="images/star.png">
+									<img src="images/star.png">
+								</div>
+							</div>
+						</div>
+
+						<img class="reviews__divider" src="images/divider.png">
+						
+						<div class="reviews__text">
+							There are many variatioof passages of Lorem Ipsum ava but the majority If you are going to use a passage of Lorem Ipsum, you need tasure there isn't anything embarrassinhidden in believable.
+						</div>
+					</div>
+
+					<div class="reviews__review">
+						<div class="reviews__review-header">
+							<img class="reviews__profile" src="images/review3.png">
+
+							<div class="reviews__info">
+								<div class="reviews__name">Cries Lee</div>
+								<div class="reviews__job">CEO of montee</div>
+								<div class="reviews__stars">
+									<img src="images/star.png">
+									<img src="images/star.png">
+									<img src="images/star.png">
+									<img src="images/star.png">
+									<img src="images/star.png">
+								</div>
+							</div>
+						</div>
+
+						<img class="reviews__divider" src="images/divider.png">
+						
+						<div class="reviews__text">
+							There are many variatioof passages of Lorem Ipsum ava but the majority If you are going to use a passage of Lorem Ipsum, you need tasure there isn't anything embarrassinhidden in believable.
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Секция поддержка -->
+			<div class="main__support-wrapper">
+				<section class="support main__support">
+					<h2 class="support__title title title_size_huge title_color_black">
+						For more Support
+					</h2>
+
+					<form class="support__form" action="">
+						<input class="support__email" type="email" placeholder="Enter  Email">
+						<button class="support__button link-button link-button_type_dark" type="submit">Subscribe</button>
+					</form>
+				</section>
+			</div>
+
+
+			<!-- Секция карта -->
+			<section class="map main__map">
+				<div class="map__info">
+					<h2 class="map__title title"> 
+						Our Restaurants. Where to Find Us?
+					</h2>
+
+					<div class="map__text">
+						Want to have a superb meal in an exceptional setting with family, friends or work colleagues, here are the addresses of our restaurants.
+					</div>
+
+					<a class="map__button link-button">Find The Nearest Cheffest</a>
+				</div>
+
+				<img class="map__img" src="images/map.png">
+			</section>
+		</main>
+
+
+		<!-- Подвал -->
+		<footer class="footer body__footer">
+			<!-- Колонки подвала -->
+			<div class="footer__columns">
+				<div class="footer__column">
+					<div class="footer__title">Our Products</div>
+
+					<a class="footer__text-link" href="#">Our menus</a>
+					<a class="footer__text-link" href="#">Our burgers</a>
+					<a class="footer__text-link" href="#">Our times sides</a>
+					<a class="footer__text-link" href="#">Our naandwiches</a>
+				</div>
+
+				<div class="footer__column">
+					<div class="footer__title">Legal information</div>
+
+					<a class="footer__text-link" href="#">Legal Notice</a>
+				</div>
+
+				<div class="footer__column">
+					<div class="footer__title">Contact us</div>
+
+					<a class="footer__text-link" href="#">Contacts</a>
+					<a class="footer__text-link" href="#">Our addresses</a>
+					<a class="footer__text-link" href="#">Become a Franchise</a>
+				</div>
+
+				<div class="footer__column">
+					<div class="footer__title">We Accept</div>
+					<div class="footer__pay">
+						<div class="footer__pay-row">
+							<img src="images/Mastercard.png" alt="mastercard">
+							<img src="images/Visa.png" alt="visa">
+						</div>
+						<img src="images/AE.png" width="90" alt="american express">
+					</div>
+				</div>
+			</div>
+
+			<!-- Нижняя часть подвала -->
+			<div class="footer__bottom">
+				<div class="footer__icons">
+					<a class="footer__icon" href="#">
+						<img src="images/facebook.png" alt="facebook">
+					</a>
+
+					<a class="footer__icon" href="#">
+						<img src="images/twitter.png" alt="twitter">
+					</a>
+
+					<a class="footer__icon" href="#">
+						<img src="images/discord.png" alt="discord">
+					</a>
+
+					<a class="footer__icon" href="#">
+						<img src="images/linkedIn.png" alt="linkedIn">
+					</a>
+				</div>
+
+				<div class="footer__copy">
+					&copy; 2024 Nayef All rights reserved.
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
