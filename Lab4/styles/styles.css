@@ -3,10 +3,23 @@
 		overflow: hidden;
 	}
 	.body {
-		display: block;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+		margin: 0;
+	}
+	.image {
+		width: 100%;
+		height: clamp(40%, 60%, 90%);
+		border-radius: clamp(10px, 5vw, 30px);
+		object-fit: cover;
 	}
 	.main-information {
 		display: flex;
+		width: 100%;
+		height: auto;
+		flex-direction: row;
 		align-items: space-between;
 		font: 20px/1.5 sans-serif;
 	}
